@@ -2,7 +2,7 @@ import { useSelector } from "react-redux"
 import { Word } from "../../components/Word"
 import { selectHasError, selectIsLoading, selectWords } from "./wordsSlice"
 import '../../assets/styles/words.css'
-
+import '../../assets/styles/states.css'
 
 export function Words() {
     const words = useSelector(selectWords)
@@ -11,10 +11,10 @@ export function Words() {
 
 
     if(isLoading) {
-        return <div>Loading...</div>
+        return <div className="loading">Loading...</div>
     }
     if(hasError) {
-        return <div>Error fetching... Check if you spelled the word correctly</div>
+        return <div className="error">Error fetching... Check if you spelled the word correctly</div>
     }
 
 

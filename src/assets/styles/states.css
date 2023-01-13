@@ -1,0 +1,13 @@
+.loading, .error {
+    display: block;
+    margin: 20px auto;
+    padding: 1rem;
+    font-size: 18px;
+    width: 50%;
+}
+.error {
+    background-color: tomato;
+}
+.loading {
+    background-color: orange;
+}
