@@ -3,8 +3,7 @@
 .searchBar {
     border: 1px solid #043FE0;
     display: flex;
-    flex-direction: column;
-    align-items: fill;
+    justify-content: space-between;
     width: 100%;
     position: relative;
     padding-left: .4rem;
