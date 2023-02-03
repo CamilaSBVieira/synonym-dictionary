@@ -41,5 +41,6 @@
     background-color: white;
     color: gray;
     font-size: 20px;
+    box-sizing: border-box;
     width: 10%;
 }
