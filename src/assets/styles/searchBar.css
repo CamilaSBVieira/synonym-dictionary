@@ -3,7 +3,8 @@
 .searchBar {
     border: 1px solid #043FE0;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: fill;
     width: 100%;
     position: relative;
     padding-left: .4rem;
@@ -13,6 +14,10 @@
         width: 50%;
         margin: 0 auto;
     }
+}
+.searchBar-bar {
+    display: flex;
+    flex-direction: row;
 }
 .searchBar_input {
     border: none;

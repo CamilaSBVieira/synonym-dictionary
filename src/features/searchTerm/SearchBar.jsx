@@ -40,7 +40,7 @@ export function SearchBar() {
 
     return (
         <form className='searchBar'>
-            <div>
+            <div className='searchBar-bar'>
                 <input className='searchBar_input' type='text' name='searchTerm' id='searchTerm' value={searchTerm} onChange={onChangeHandler} onClick={onClickInput} />
                 <button className='searchBar_clearButton' onClick={onClearHandler}>X</button>
                 <input className='searchBar_searchButton' type="submit" onClick={onSubmit} />
